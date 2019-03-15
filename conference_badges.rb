@@ -3,8 +3,8 @@ def badge_maker(name)
   "Hello, my name is #{name}."
 end
 
-def room_assignment(name)
-  "Hello, #{name}! You'll be assigned to room 1!"
+def room_assignment(name, room)
+  "Hello, #{name}! You'll be assigned to room #{room}!"
 end
 
 def batch_badge_creator(arr_attendees)
