@@ -30,8 +30,8 @@ end
 def printer(arr_attendees)
   count = 0
   arr_attendees.each do
-  puts batch_badge_creator[count]
-  puts assign_rooms[count]
+  batch_badge_creator(arr_attendees)
+  assign_rooms(arr_attendees)
     count += 1
   end
 end
