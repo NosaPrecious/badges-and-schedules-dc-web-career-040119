@@ -27,6 +27,6 @@ def assign_rooms(arr_attendees)
   room_assigned
 end
 
-def printer
+def printer(message)
   
 end
