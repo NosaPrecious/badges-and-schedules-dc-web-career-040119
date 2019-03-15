@@ -13,6 +13,6 @@ def batch_badge_creator(arr_attendees)
   badges
 end
 
-def assign_rooms
+def assign_rooms(arr_attendees)
   
 end
