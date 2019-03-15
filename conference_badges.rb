@@ -29,11 +29,9 @@ end
 
 def printer(arr_attendees)
   count = 0
-  message = 
-   batch_badge_creator(arr_attendees)
-  assign_rooms(arr_attendees)
-  arr_attendees.each do |attendees|
- 
+  message =  batch_badge_creator(arr_attendees).concat( assign_rooms(arr_attendees))
+  message.each do |attendees|
+ puts message[count]
     count += 1
   end
 end
