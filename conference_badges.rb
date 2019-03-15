@@ -18,5 +18,11 @@ def batch_badge_creator(arr_attendees)
 end
 
 def assign_rooms(arr_attendees)
-  
+  count = 0
+  room_assigned = []
+  arr_attendees.each do |val| 
+    badges.push(room_assignment(val, count + 1))
+    count += 1
+  end
+  room_assigned
 end
