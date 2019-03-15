@@ -28,6 +28,6 @@ def assign_rooms(arr_attendees)
 end
 
 def printer(arr_attendees)
-puts batch_badge_creator(arr_attendees).inspect
-puts assign_rooms(arr_attendees).inspect
+batch_badge_creator
+assign_rooms
 end
