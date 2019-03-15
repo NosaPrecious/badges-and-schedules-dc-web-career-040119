@@ -29,8 +29,7 @@ end
 
 def printer(arr_attendees)
   count = 0
-  room_assigned = []
-  arr_attendees.each do |val| 
+  arr_attendees.each do
   puts batch_badge_creator[count]
   puts assign_rooms[count]
     count += 1
