@@ -29,6 +29,6 @@ end
 
 def printer(message)
   user_input = gets.chomp
-  message= badge_maker(user_input)
+  badge_maker(user_input)
   
 end
