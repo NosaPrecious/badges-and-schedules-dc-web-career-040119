@@ -29,6 +29,7 @@ end
 
 def printer(arr_attendees)
   count = 0
+  message = 
    batch_badge_creator(arr_attendees)
   assign_rooms(arr_attendees)
   arr_attendees.each do |attendees|
