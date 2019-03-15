@@ -5,3 +5,4 @@ end
 
 def batch_badge_creator(arr_attendees)
   arr_attendees = []
+end
