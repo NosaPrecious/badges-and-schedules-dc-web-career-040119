@@ -14,5 +14,5 @@ def batch_badge_creator(arr_attendees)
 end
 
 def assign_rooms(arr_attendees)
-  
+  #Hello, Edsger! You'll be assigned to room 1!
 end
