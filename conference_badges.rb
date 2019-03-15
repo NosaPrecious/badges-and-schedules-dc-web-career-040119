@@ -27,8 +27,7 @@ def assign_rooms(arr_attendees)
   room_assigned
 end
 
-def printer(message)
-  user_input = gets.chomp
-  badge_maker(user_input)
-  
+def printer(arr_attendees)
+batch_badge_creator(arr_attendees)
+assign_rooms(arr_attendees)
 end
