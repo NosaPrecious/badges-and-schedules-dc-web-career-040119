@@ -6,8 +6,8 @@ end
 def batch_badge_creator(arr_attendees)
   count = 0
   badges = []
-  arr_attendees.each do |i| 
-    badges.push(badge_maker(i[count]))
+  arr_attendees.each do |val| 
+    badges.push(badge_maker(val))
     count += 1
   end
   badges
