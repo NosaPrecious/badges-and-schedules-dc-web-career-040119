@@ -28,5 +28,7 @@ def assign_rooms(arr_attendees)
 end
 
 def printer(message)
+  user_input = gets.chomp
+  message= badge_maker(user_input)
   
 end
